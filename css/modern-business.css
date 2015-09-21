@@ -50,7 +50,7 @@ a {
 .navbar {
     background-color: #006337;
 
-    height: 10%;
+   /*height: 10%;*/
 
 }
 
@@ -108,7 +108,8 @@ header.carousel .fill {
 }
 
 a.right.carousel-control,
-a.left.carousel-control {
+a.left.carousel-control,
+a.clear {
     background-color: transparent;
 }
 
