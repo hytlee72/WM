@@ -113,6 +113,12 @@ a.clear {
     background-color: transparent;
 }
 
+a.p-header{
+    color: #ffffff;
+}
+a.hover{
+    color: ##006337;
+}
 /* 404 Page Styles */
 
 .error-404 {

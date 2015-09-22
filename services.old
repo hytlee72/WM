@@ -97,40 +97,102 @@
         </div>
         <!-- /.row -->
 
+        <!-- Service Panels -->
+        <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Services Panels</h2>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="panel-body">
+                        <h4>Service One</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="panel-body">
+                        <h4>Service Two</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-support fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="panel-body">
+                        <h4>Service Three</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="panel-body">
+                        <h4>Service Four</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Service Tabs -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">Services</h2>
+                <h2 class="page-header">Service Tabs</h2>
             </div>
             <div class="col-lg-12">
 
                 <ul id="myTab" class="nav nav-tabs nav-justified">
-                    <li class="active"><a href="#service-one" data-toggle="tab" class="p-header"><i class="fa fa-home"></i> Residential</a>
+                    <li class="active"><a href="#service-one" data-toggle="tab"><i class="fa fa-tree"></i> Service One</a>
                     </li>
-                    <li class=""><a href="#service-two" data-toggle="tab" class="p-header"><i class="fa fa-institution"></i> Commercial</a>
+                    <li class=""><a href="#service-two" data-toggle="tab"><i class="fa fa-car"></i> Service Two</a>
                     </li>
-                    <li class=""><a href="#service-three" data-toggle="tab" class="p-header"><i class="fa fa-support"></i> Service Three</a>
+                    <li class=""><a href="#service-three" data-toggle="tab"><i class="fa fa-support"></i> Service Three</a>
                     </li>
-                    <li class=""><a href="#service-four" data-toggle="tab" class="p-header"><i class="fa fa-database"></i> Service Four</a>
+                    <li class=""><a href="#service-four" data-toggle="tab"><i class="fa fa-database"></i> Service Four</a>
                     </li>
                 </ul>
 
                 <div id="myTabContent" class="tab-content">
                     <div class="tab-pane fade active in" id="service-one">
-                        <h4>Residential Roofing</h4>
-                        <p>Walker Metals can provide you with the panels cut to your specification saving you time and energy. Whether you are repairing your storage shed or building a new one, residential panels may be what you need. Long lasting metal panels come in Galvalume "Plus" or a variety of colors. Metal panels protect residents from the weather elements: hail and wind. Metal does not burn, protecting you from wind driven sparks.</p>
-                        <p>Because we use only high quality metal coils, colored metal roofing and siding is warranted agaisnt cracking, chipping or rusting for a period of 40 years. Galvalume "Plus" comes with an acrylic finshing which provides the panels with a longer newer look.</p>
-                        <p>We have a trim shop for your special trim needs. If you can draw it, we can usually make it while you wait. We make all the accessories needed for your project.</p>
+                        <h4>Service One</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
                     </div>
                     <div class="tab-pane fade" id="service-two">
-                        <h4>Commercial Roofing</h4>
-                        <p>During the course of a large commercial construction project, things can change quickly. The project’s budget and design may go through a number of alterations even after the construction is underway. You need to be able to respond quickly to these changes.</p>
-                        <p>Whether you’re installing a new storefront or building a boat storage facility, getting all the steel materials you need from one location is crucial. A large project might require a variety of products and styles, but you can’t afford to make extra trips to several manufacturers. It costs you valuable time and money.</p>
-                        <p>You CAN get the materials you need and stay on budget at the same time. If you call Walker Metals.</p>
-                        <p>Just place your new order by 2 pm - we can typically have your panels manufactured and cut to legnth by the next business morning. You save time by getting reliable steel materials FAST, without having to wait around for days for your products to come in. Fast, friendly service means you keep your commercial roofing project on time.</p>
-                        <p>And just because you receive your order fast doesn’t mean it’s rushed. We cut our 26 and 29 gauge steel to your specific requirements. Our helpful staff work closely with you to make sure every panel meets the exact dimensions you specify. You might call it the Walker Metals advantage. We just call it the way we do business.</p>
-                        </p>Visit our 14,000 square feet operating facility in the Walker Industrial Park or call the friendly folks at Walker Metals to handle all your commercial roofing needs!</p>
+                        <h4>Service Two</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
                     </div>
                     <div class="tab-pane fade" id="service-three">
                         <h4>Service Three</h4>
@@ -156,12 +218,25 @@
             <div class="col-md-4">
                 <div class="media">
 
-                    <div data-bind="foreach: ViewModel" class="media-body">
-                        <a href="index.html">
-                        <h4 data-bind="text: $data" class="media-heading"><h4></a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Service One</h4>
+
                     </div>
                 </div>
+                <div class="media">
 
+                    <div class="media-body">
+                        <h4 class="media-heading">Service Two</h4>
+
+                    </div>
+                </div>
+                <div class="media">
+
+                    <div class="media-body">
+                        <h4 class="media-heading">Service Three</h4>
+
+                    </div>
+                </div>
             </div>
 
         </div>
