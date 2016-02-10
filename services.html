@@ -64,6 +64,9 @@
                     <li>
                         <a href="faq.html">FAQ</a>
                     </li>
+                    <li>
+                        <a href="heroes.html">Fallen Heroes</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -157,7 +160,7 @@
                 <div class="media">
 
                     <div data-bind="foreach: ViewModel" class="media-body">
-                        <a href="index.html">
+                        <a data-bind="attr: {href: 'index.html?city=' + $data}">
                         <h4 data-bind="text: $data" class="media-heading"><h4></a>
                     </div>
                 </div>
