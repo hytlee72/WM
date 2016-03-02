@@ -19,8 +19,11 @@ a {
     background-color: #006337;
 }
 
-
-
+/*.roof-button {
+    float: left;
+    width: 135px;
+    height: 96px;
+}*/
 .navbar-inverse .navbar-nav > li > a {
     color: #ffffff;
 }
