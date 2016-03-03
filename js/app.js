@@ -62,7 +62,7 @@ var initialHouses = [
 		{
 
 			houseSrc: 'img/visualizer/House_Tan.jpg',
-			buttonSrc: 'img/visualizer/buttons/Tan.png'
+			buttonSrc: 'img/visualizer/buttons/tan.png'
 		}
 	];
 
