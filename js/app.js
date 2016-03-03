@@ -1,68 +1,68 @@
 var initialHouses = [
 		{
 
-			houseSrc: 'img/Visualizer/House_Green.jpg',
-			buttonSrc: 'img/Visualizer/Buttons/green.png'
+			houseSrc: 'img/visualizer/House_Green.jpg',
+			buttonSrc: 'img/visualizer/buttons/green.png'
 		},
 
 		{
 
-			houseSrc: 'img/Visualizer/House_Stone.jpg',
-			buttonSrc: 'img/Visualizer/Buttons/stone.png'
+			houseSrc: 'img/visualizer/House_Stone.jpg',
+			buttonSrc: 'img/visualizer/buttons/stone.png'
 		},
 
 		{
 
-			houseSrc: 'img/Visualizer/House_Brown.jpg',
-			buttonSrc: 'img/Visualizer/Buttons/brown.png'
+			houseSrc: 'img/visualizer/House_Brown.jpg',
+			buttonSrc: 'img/visualizer/buttons/brown.png'
 		},
 
 		{
 
-			houseSrc: 'img/Visualizer/House_Red.jpg',
-			buttonSrc: 'img/Visualizer/Buttons/red.png'
+			houseSrc: 'img/visualizer/House_Red.jpg',
+			buttonSrc: 'img/visualizer/buttons/red.png'
 		},
 
 		{
 
-			houseSrc: 'img/Visualizer/House_Charcoal.jpg',
-			buttonSrc: 'img/Visualizer/Buttons/charcoal.png'
+			houseSrc: 'img/visualizer/House_Charcoal.jpg',
+			buttonSrc: 'img/visualizer/buttons/charcoal.png'
 		},
 
 		{
 
-			houseSrc: 'img/Visualizer/House_White.jpg',
-			buttonSrc: 'img/Visualizer/Buttons/white.png'
+			houseSrc: 'img/visualizer/House_White.jpg',
+			buttonSrc: 'img/visualizer/buttons/white.png'
 		},
 
 		{
 
-			houseSrc: 'img/Visualizer/House_Blue.jpg',
-			buttonSrc: 'img/Visualizer/Buttons/blue.png'
+			houseSrc: 'img/visualizer/House_Blue.jpg',
+			buttonSrc: 'img/visualizer/buttons/blue.png'
 		},
 
 		{
 
-			houseSrc: 'img/Visualizer/House_Beige.jpg',
-			buttonSrc: 'img/Visualizer/Buttons/beige.jpg'
+			houseSrc: 'img/visualizer/House_Beige.jpg',
+			buttonSrc: 'img/visualizer/buttons/beige.png'
 		},
 
 		{
 
-			houseSrc: 'img/Visualizer/House_Gray.jpg',
-			buttonSrc: 'img/Visualizer/Buttons/gray.png'
+			houseSrc: 'img/visualizer/House_Gray.jpg',
+			buttonSrc: 'img/visualizer/buttons/gray.png'
 		},
 
 		{
 
-			houseSrc: 'img/Visualizer/House_Slate.jpg',
-			buttonSrc: 'img/Visualizer/Buttons/slate.png'
+			houseSrc: 'img/visualizer/House_Slate.jpg',
+			buttonSrc: 'img/visualizer/buttons/slate.png'
 		},
 
 		{
 
-			houseSrc: 'img/Visualizer/House_Tan.jpg',
-			buttonSrc: 'img/Visualizer/Buttons/Tan.png'
+			houseSrc: 'img/visualizer/House_Tan.jpg',
+			buttonSrc: 'img/visualizer/buttons/Tan.png'
 		}
 	];
 
