@@ -19,11 +19,26 @@ a {
     background-color: #006337;
 }
 
-/*.roof-button {
-    float: left;
-    width: 135px;
-    height: 96px;
+/*.house-img {
+    max-width: 90%;
+    max-height: 400px;
+    position: absolute;
+    z-index: 1;
+}
+.roof-img {
+    max-width: 90%;
+    max-height: 400px;
+    position: absolute;
+    z-index: 2;
+}
+
+.visualizer {
+    position: relative;
 }*/
+.color-button {
+    float: left;
+}
+
 .navbar-inverse .navbar-nav > li > a {
     color: #ffffff;
 }

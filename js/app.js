@@ -1,74 +1,75 @@
 var initialHouses = [
 		{
-
-			houseSrc: 'img/visualizer/House_Green.jpg',
+			house1Src: 'img/visualizer/house1/house1-stone-min.jpg',
+			house2Src: 'img/visualizer/House2/House_Green-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/green.png'
 		},
 
 		{
 
-			houseSrc: 'img/visualizer/House_Stone.jpg',
+			house2Src: 'img/visualizer/House2/House_Stone-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/stone.png'
 		},
 
 		{
 
-			houseSrc: 'img/visualizer/House_Brown.jpg',
+			house2Src: 'img/visualizer/House2/House_Brown-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/brown.png'
 		},
 
 		{
 
-			houseSrc: 'img/visualizer/House_Red.jpg',
+			house2Src: 'img/visualizer/House2/House_Red-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/red.png'
 		},
 
 		{
 
-			houseSrc: 'img/visualizer/House_Charcoal.jpg',
+			house2Src: 'img/visualizer/House2/House_Charcoal-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/charcoal.png'
 		},
 
 		{
 
-			houseSrc: 'img/visualizer/House_White.jpg',
+			house2Src: 'img/visualizer/House2/House_White-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/white.png'
 		},
 
 		{
 
-			houseSrc: 'img/visualizer/House_Blue.jpg',
+			house2Src: 'img/visualizer/House2/House_Blue-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/blue.png'
 		},
 
 		{
 
-			houseSrc: 'img/visualizer/House_Beige.jpg',
+			house2Src: 'img/visualizer/House2/House_Beige-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/beige.png'
 		},
 
 		{
 
-			houseSrc: 'img/visualizer/House_Gray.jpg',
+			house2Src: 'img/visualizer/House2/House_Gray-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/gray.png'
 		},
 
 		{
 
-			houseSrc: 'img/visualizer/House_Slate.jpg',
+			house2Src: 'img/visualizer/House2/House_Slate-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/slate.png'
 		},
 
 		{
 
-			houseSrc: 'img/visualizer/House_Tan.jpg',
+			house2Src: 'img/visualizer/House2/House_Tan-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/tan.png'
 		}
 	];
 
 var House = function(data) {
 
-	this.houseSrc = ko.observable(data.houseSrc);
+	this.house1Src = ko.observable(data.house1Src);
+	this.house2Src = ko.observable(data.house2Src);
 	this.buttonSrc = ko.observable(data.buttonSrc);
 
 
@@ -92,6 +93,7 @@ var ViewModel = function() {
 	/*this.incrementCounter = function() {
 		self.currentCat().clickCount(self.currentCat().clickCount() + 1);
 	};*/
-}
+};
+
 
 ko.applyBindings(new ViewModel());
