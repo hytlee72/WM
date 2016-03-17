@@ -1,67 +1,67 @@
 var initialHouses = [
 		{
 			house1Src: 'img/visualizer/house1/house1-stone-min.jpg',
-			house2Src: 'img/visualizer/House2/House_Green-min.jpg',
+			house2Src: 'img/visualizer/house2/House_Green-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/green.png'
 		},
 
 		{
 
-			house2Src: 'img/visualizer/House2/House_Stone-min.jpg',
+			house2Src: 'img/visualizer/house2/House_Stone-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/stone.png'
 		},
 
 		{
 
-			house2Src: 'img/visualizer/House2/House_Brown-min.jpg',
+			house2Src: 'img/visualizer/house2/House_Brown-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/brown.png'
 		},
 
 		{
 
-			house2Src: 'img/visualizer/House2/House_Red-min.jpg',
+			house2Src: 'img/visualizer/house2/House_Red-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/red.png'
 		},
 
 		{
 
-			house2Src: 'img/visualizer/House2/House_Charcoal-min.jpg',
+			house2Src: 'img/visualizer/house2/House_Charcoal-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/charcoal.png'
 		},
 
 		{
 
-			house2Src: 'img/visualizer/House2/House_White-min.jpg',
+			house2Src: 'img/visualizer/house2/House_White-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/white.png'
 		},
 
 		{
 
-			house2Src: 'img/visualizer/House2/House_Blue-min.jpg',
+			house2Src: 'img/visualizer/house2/House_Blue-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/blue.png'
 		},
 
 		{
 
-			house2Src: 'img/visualizer/House2/House_Beige-min.jpg',
+			house2Src: 'img/visualizer/house2/House_Beige-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/beige.png'
 		},
 
 		{
 
-			house2Src: 'img/visualizer/House2/House_Gray-min.jpg',
+			house2Src: 'img/visualizer/house2/House_Gray-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/gray.png'
 		},
 
 		{
 
-			house2Src: 'img/visualizer/House2/House_Slate-min.jpg',
+			house2Src: 'img/visualizer/house2/House_Slate-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/slate.png'
 		},
 
 		{
 
-			house2Src: 'img/visualizer/House2/House_Tan-min.jpg',
+			house2Src: 'img/visualizer/house2/House_Tan-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/tan.png'
 		}
 	];
