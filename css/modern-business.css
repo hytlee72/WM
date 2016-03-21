@@ -30,11 +30,19 @@ a {
     max-height: 400px;
     position: absolute;
     z-index: 2;
+}*/
+
+.wrapper{
+  position: relative;
+  height:100%;
 }
 
-.visualizer {
-    position: relative;
-}*/
+.img-hidden {
+   visibility:hidden;
+   height:0px;
+   width:0px;
+}
+
 .color-button {
     float: left;
 }
@@ -58,7 +66,8 @@ a {
     background-color: #006337;
 }
 .img-portfolio {
-    margin-bottom: 30px;
+    margin-bottom:40px;
+
 }
 
 .img-hover:hover {

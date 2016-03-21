@@ -1,6 +1,5 @@
 var initialHouses = [
 		{
-			house1Src: 'img/visualizer/house1/house1-stone-min.jpg',
 			house2Src: 'img/visualizer/house2/House_Green-min.jpg',
 			buttonSrc: 'img/visualizer/buttons/green.png'
 		},
@@ -71,8 +70,6 @@ var House = function(data) {
 	this.house1Src = ko.observable(data.house1Src);
 	this.house2Src = ko.observable(data.house2Src);
 	this.buttonSrc = ko.observable(data.buttonSrc);
-
-
 };
 
 var ViewModel = function() {
