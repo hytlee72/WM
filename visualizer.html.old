@@ -113,30 +113,17 @@
         <!-- Projects Row -->
 
         <div class="row">
-            <div  class="col-md-6">
-                <input type="radio" name="office" id="residential" data-bind="checked: $root.residentialSelected, checkedValue: true"> Residential
-                <input type="radio" name="office" id="commercial" data-bind="checked: $root.residentialSelected, checkedValue: false"> Commercial
-                    <div data-bind="visible: !$root.residentialSelected()">
-                        <input type="radio" name="roofwall" id="setRoof" data-bind="checked: $root.roofSelected, checkedValue: true"> Roof Color
-                        <input type="radio" name ="roofwall" id="setWall" data-bind="checked: $root.wallSelected, checkedValue: true"> Wall Color
-                    </div>
-               <!-- <h3>Bind to buttons above</h3> -->
-                    <div class="img-overlay" data-bind="with:currentBuilding, visible: $root.residentialSelected()">
-                        <img class="img-responsive" src="" alt="Custom Color" data-bind="attr: {src: houseSrc}">
-                    </div>
-                    <div class="img-overlay" data-bind="visible:!$root.residentialSelected()">
-                        <img id="officepic" class="img-responsive" src="img/visualizer/office/office.jpg" alt="Commercial Building">
-                        <img id="roofPic" class="img-responsive roof-overlay" src="">
-                        <img id="wallPic" class="img-responsive roof-overlay" src="">
-                    </div>
+            <div  class="col-md-6" data-bind="with:currentHouse">
+                <h3>Residential</h3>
+                <img class="img-responsive" src="" alt="Custom Color" data-bind="attr: {src: house2Src}">
                 <p>Please choose a color from the color chart</p>
                 <p>NOTE: Colors vary by monitor setting. Please contact us to get the most accurate color representation.</p>
             </div>
             <div class="col-md-6">
                 <h3>Color Chart</h3>
-                <div data-bind="foreach: buildingList">
-                    <img class="img-hidden" src="" alt="Custom Color" data-bind="attr: {src: houseSrc}">
-                    <img data-bind="attr: {src: buttonSrc}, click: $parent.setBuilding" class="img-responsive color-button" alt="Custom Color Chart">
+                <div data-bind="foreach: houseList">
+                    <img class="img-hidden" src="" alt="Custom Color" data-bind="attr: {src: house2Src}">
+                    <img data-bind="attr: {src: buttonSrc}, click: $parent.setHouse" class="img-responsive color-button" alt="Custom Color Chart">
                 </div>
                 <br>
                 <img class="img-responsive" src="img/visualizer/buttons/Ceramastar.png">
