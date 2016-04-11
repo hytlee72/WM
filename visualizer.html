@@ -122,7 +122,8 @@
                     </div>
                <!-- <h3>Bind to buttons above</h3> -->
                     <div class="img-overlay" data-bind="with:currentBuilding, visible: $root.residentialSelected()">
-                        <img class="img-responsive" src="" alt="Custom Color" data-bind="attr: {src: houseSrc}">
+                        <img id="housePic" class="img-responsive" src="img/visualizer/house2/House_White-min.jpg" alt="Residential Building">
+                        <img id="houseRoof" class="img-responsive roof-overlay" src="" data-bind="attr: {src: houseSrc}">
                     </div>
                     <div class="img-overlay" data-bind="visible:!$root.residentialSelected()">
                         <img id="officepic" class="img-responsive" src="img/visualizer/office/office.jpg" alt="Commercial Building">

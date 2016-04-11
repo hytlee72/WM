@@ -2,77 +2,77 @@ var initialBuildings = [
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_green.png',
 			wallSrc: 'img/visualizer/office/walls/wall_green.png',
-			house2Src: 'img/visualizer/house2/House_Green-min.jpg',
+			house2Src: 'img/visualizer/house2/roof_green.png',
 			buttonSrc: 'img/visualizer/buttons/green.png'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_stone.png',
 			wallSrc: 'img/visualizer/office/walls/wall_stone.png',
-			house2Src: 'img/visualizer/house2/House_Stone-min.jpg',
+			house2Src: 'img/visualizer/house2/roof_stone.png',
 			buttonSrc: 'img/visualizer/buttons/stone.png'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_brown.png',
 			wallSrc: 'img/visualizer/office/walls/wall_brown.png',
-			house2Src: 'img/visualizer/house2/House_Brown-min.jpg',
+			house2Src: 'img/visualizer/house2/roof_brown.png',
 			buttonSrc: 'img/visualizer/buttons/brown.png'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_red.png',
 			wallSrc: 'img/visualizer/office/walls/wall_red.png',
-			house2Src: 'img/visualizer/house2/House_Red-min.jpg',
+			house2Src: 'img/visualizer/house2/roof_red.png',
 			buttonSrc: 'img/visualizer/buttons/red.png'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_charcoal.png',
 			wallSrc: 'img/visualizer/office/walls/wall_charcoal.png',
-			house2Src: 'img/visualizer/house2/House_Charcoal-min.jpg',
+			house2Src: 'img/visualizer/house2/roof_charcoal.png',
 			buttonSrc: 'img/visualizer/buttons/charcoal.png'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_white.png',
 			wallSrc: 'img/visualizer/office/walls/wall_white.png',
-			house2Src: 'img/visualizer/house2/House_White-min.jpg',
+			house2Src: 'img/visualizer/house2/roof_white.png',
 			buttonSrc: 'img/visualizer/buttons/white.png'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_blue.png',
 			wallSrc: 'img/visualizer/office/walls/wall_blue.png',
-			house2Src: 'img/visualizer/house2/House_Blue-min.jpg',
+			house2Src: 'img/visualizer/house2/roof_blue.png',
 			buttonSrc: 'img/visualizer/buttons/blue.png'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_beige.png',
 			wallSrc: 'img/visualizer/office/walls/wall_beige.png',
-			house2Src: 'img/visualizer/house2/House_Beige-min.jpg',
+			house2Src: 'img/visualizer/house2/roof_beige.png',
 			buttonSrc: 'img/visualizer/buttons/beige.png'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_gray.png',
 			wallSrc: 'img/visualizer/office/walls/wall_gray.png',
-			house2Src: 'img/visualizer/house2/House_Gray-min.jpg',
+			house2Src: 'img/visualizer/house2/roof_gray.png',
 			buttonSrc: 'img/visualizer/buttons/gray.png'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_slate.png',
 			wallSrc: 'img/visualizer/office/walls/wall_slate.png',
-			house2Src: 'img/visualizer/house2/House_Slate-min.jpg',
+			house2Src: 'img/visualizer/house2/roof_slate.png',
 			buttonSrc: 'img/visualizer/buttons/slate.png'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_tan.png',
 			wallSrc: 'img/visualizer/office/walls/wall_tan.png',
-			house2Src: 'img/visualizer/house2/House_Tan-min.jpg',
+			house2Src: 'img/visualizer/house2/roof_tan.png',
 			buttonSrc: 'img/visualizer/buttons/tan.png'
 		}
 	];
@@ -88,12 +88,11 @@ var Building = function(data) {
 
 var ViewModel = function() {
 	var self = this;
-	var residentialButton = document.getElementById("residential");
-	var commercialButton = document.getElementById("commercial");
-	var roofButton = document.getElementById("setRoof");
-	var wallButton = document.getElementById("setWall");
-	var roofImg = document.getElementById("roofPic");
-	var wallImg = document.getElementById("wallPic");
+	var residentialButton = document.getElementById("residential"),
+		 roofButton = document.getElementById("setRoof"),
+		 wallButton = document.getElementById("setWall"),
+	 	 roofImg = document.getElementById("roofPic"),
+		 wallImg = document.getElementById("wallPic");
 	this.residentialSelected = ko.observable(true);
 	this.commercialSelected = ko.observable(false);
 	this.buildingList = ko.observableArray([]);
