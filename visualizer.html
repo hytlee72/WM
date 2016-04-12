@@ -136,11 +136,16 @@
             <div class="col-md-6">
                 <h3>Color Chart</h3>
                 <div data-bind="foreach: buildingList">
-                    <img class="img-hidden" src="" alt="Custom Color" data-bind="attr: {src: houseSrc}">
                     <img data-bind="attr: {src: buttonSrc}, click: $parent.setBuilding" class="img-responsive color-button" alt="Custom Color Chart">
                 </div>
                 <br>
                 <img class="img-responsive" src="img/visualizer/buttons/Ceramastar.png">
+                <div data-bind="foreach: buildingList">
+                    <img class="img-hidden" src="" alt="Custom Color" data-bind="attr: {src: houseSrc}">
+                    <img class="img-hidden" src="" alt="Custom Color" data-bind="attr: {src: officeRoofSrc}">
+                    <img class="img-hidden" src="" alt="Custom Color" data-bind="attr: {src: officeWallSrc}">
+                </div>
+
             </div>
         </div>
         <!-- /.row -->
