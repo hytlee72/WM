@@ -32,6 +32,10 @@ a {
     z-index: 2;
 }*/
 
+.clear {
+    background-color: transparent;
+}
+
 .wrapper{
   position: relative;
   height:100%;
