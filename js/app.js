@@ -3,77 +3,77 @@ var initialBuildings = [
 			roofSrc: 'img/visualizer/office/roofs/roof_green.png',
 			wallSrc: 'img/visualizer/office/walls/wall_green.png',
 			house2Src: 'img/visualizer/house2/roof_green.png',
-			buttonSrc: 'img/visualizer/buttons/green.png'
+			buttonSrc: 'img/visualizer/buttons/emerald.jpg'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_stone.png',
 			wallSrc: 'img/visualizer/office/walls/wall_stone.png',
 			house2Src: 'img/visualizer/house2/roof_stone.png',
-			buttonSrc: 'img/visualizer/buttons/stone.png'
+			buttonSrc: 'img/visualizer/buttons/stone.jpg'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_brown.png',
 			wallSrc: 'img/visualizer/office/walls/wall_brown.png',
 			house2Src: 'img/visualizer/house2/roof_brown.png',
-			buttonSrc: 'img/visualizer/buttons/brown.png'
+			buttonSrc: 'img/visualizer/buttons/cocoa.jpg'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_red.png',
 			wallSrc: 'img/visualizer/office/walls/wall_red.png',
 			house2Src: 'img/visualizer/house2/roof_red.png',
-			buttonSrc: 'img/visualizer/buttons/red.png'
+			buttonSrc: 'img/visualizer/buttons/rustic.jpg'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_charcoal.png',
 			wallSrc: 'img/visualizer/office/walls/wall_charcoal.png',
 			house2Src: 'img/visualizer/house2/roof_charcoal.png',
-			buttonSrc: 'img/visualizer/buttons/charcoal.png'
+			buttonSrc: 'img/visualizer/buttons/charcoal.jpg'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_white.png',
 			wallSrc: 'img/visualizer/office/walls/wall_white.png',
 			house2Src: 'img/visualizer/house2/roof_white.png',
-			buttonSrc: 'img/visualizer/buttons/white.png'
+			buttonSrc: 'img/visualizer/buttons/white.jpg'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_blue.png',
 			wallSrc: 'img/visualizer/office/walls/wall_blue.png',
 			house2Src: 'img/visualizer/house2/roof_blue.png',
-			buttonSrc: 'img/visualizer/buttons/blue.png'
+			buttonSrc: 'img/visualizer/buttons/blue.jpg'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_beige.png',
 			wallSrc: 'img/visualizer/office/walls/wall_beige.png',
 			house2Src: 'img/visualizer/house2/roof_beige.png',
-			buttonSrc: 'img/visualizer/buttons/beige.png'
+			buttonSrc: 'img/visualizer/buttons/beige.jpg'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_gray.png',
 			wallSrc: 'img/visualizer/office/walls/wall_gray.png',
 			house2Src: 'img/visualizer/house2/roof_gray.png',
-			buttonSrc: 'img/visualizer/buttons/gray.png'
+			buttonSrc: 'img/visualizer/buttons/gray.jpg'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_slate.png',
 			wallSrc: 'img/visualizer/office/walls/wall_slate.png',
 			house2Src: 'img/visualizer/house2/roof_slate.png',
-			buttonSrc: 'img/visualizer/buttons/slate.png'
+			buttonSrc: 'img/visualizer/buttons/slate.jpg'
 		},
 
 		{
 			roofSrc: 'img/visualizer/office/roofs/roof_tan.png',
 			wallSrc: 'img/visualizer/office/walls/wall_tan.png',
 			house2Src: 'img/visualizer/house2/roof_tan.png',
-			buttonSrc: 'img/visualizer/buttons/tan.png'
+			buttonSrc: 'img/visualizer/buttons/tan.jpg'
 		}
 	];
 
